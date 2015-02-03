@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>operator_messaging</name>
+  <version>0.0.1</version>
+  <description>The operator_messaging package</description>
+
+  <maintainer email="langen@robot-rose.nl">Mathijs de langen</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>ui_messaging_base</build_depend>
+
+  <run_depend>ui_messaging_base</run_depend>
+  
+  <export>
+  </export>
+</package>
