@@ -13,7 +13,9 @@
 #ifndef OPERATOR_MESSAGING_HPP
 #define OPERATOR_MESSAGING_HPP
 
-#include "ui_messaging_base/ui_messaging_base.hpp"
+#include "ros_name/ros_name.hpp"                    // For using ROS_NAME
+
+#include "ui_messaging_base/ui_messaging_base.hpp"  // The base class
 
 class OperatorMessaging : public UiMessagingBase
 {

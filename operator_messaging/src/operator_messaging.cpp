@@ -18,8 +18,8 @@ OperatorMessaging::OperatorMessaging()
     initPublishers();
 } 
 
-OperatorMessaging::OperatorMessaging(ros::NodeHandle n ) 
-    : GuiMessaging(n)
+OperatorMessaging::OperatorMessaging(ros::NodeHandle n) 
+    : UiMessagingBase(n)
 {
     initPublishers();
 }
