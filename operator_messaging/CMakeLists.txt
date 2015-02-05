@@ -12,6 +12,8 @@ set(CMAKE_CXX_FLAGS "-std=c++0x -fPIC -g")
 catkin_package(
     INCLUDE_DIRS 
         include
+    CATKIN_DEPENDS
+        ui_messaging_base
     LIBRARIES 
         operator_messaging
 )
